@@ -1,2 +1,12 @@
-
+.form-control.is-invalid, 
+        .form-check-input.is-invalid {
+            border-color: #dc3545;
+        }
+        .form-control.is-valid, 
+        .form-check-input.is-valid {
+            border-color: #28a745;
+        }
+        .invalid-feedback {
+            color: #dc3545;
+        }
 /* Your CSS Code here. */
